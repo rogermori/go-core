@@ -20,12 +20,14 @@ func main() {
     for i:= 0; i < 5; i++ {
 		fmt.Println(i)
 	}
-
+    
+	// while loop
     for {
 		fmt.Println("Go!")
 		break
 	}
 
+	// do while loop
 	j := true
     for j {
 		fmt.Println("This should happen only once")
